@@ -1,11 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="152" viewBox="0 0 720 152" role="img" aria-labelledby="title desc">
   <title id="title">From interface to release</title>
-  <desc id="desc">A product engineering path from web and mobile interfaces through APIs and data to testing and release, with a feedback loop returning from release to the interface.</desc>
+  <desc id="desc">A product engineering path connecting web and mobile interfaces, APIs and data, and testing and release.</desc>
+  <style>
+    .compact-labels { display: none; }
+    @media (max-width: 480px) {
+      .full-labels, .feedback-path { display: none; }
+      .compact-labels { display: block; }
+    }
+  </style>
   <rect width="720" height="152" rx="10" fill="#f5f7f3"/>
 
   <g fill="none" stroke="#b8c7bb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M82 47H638"/>
-    <path d="M622 126C581 145 139 145 98 126" stroke="#c5d0c8" stroke-dasharray="3 6"/>
+    <path class="feedback-path" d="M622 126C581 145 139 145 98 126" stroke="#c5d0c8" stroke-dasharray="3 6"/>
   </g>
   <g fill="#f5f7f3" stroke="#286447" stroke-width="2">
     <circle cx="104" cy="47" r="21"/>
@@ -34,11 +41,16 @@
   <g fill="#f5f7f3" stroke="#286447" stroke-width="2">
     <path d="m227 43 5 4-5 4"/>
     <path d="m483 43 5 4-5 4"/>
-    <path d="m102 123-5 4 5 4"/>
+    <path class="feedback-path" d="m102 123-5 4 5 4"/>
   </g>
-  <g fill="#183326" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="550" letter-spacing="-0.4">
+  <g class="full-labels" fill="#183326" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="550" letter-spacing="-0.4">
     <text x="104" y="94" text-anchor="middle">Web + mobile</text>
     <text x="360" y="94" text-anchor="middle">API + data</text>
     <text x="616" y="94" text-anchor="middle">Test + release</text>
+  </g>
+  <g class="compact-labels" fill="#183326" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="550" letter-spacing="-0.4" text-anchor="middle">
+    <text x="104" y="102">Web<tspan x="104" dy="38">+ mobile</tspan></text>
+    <text x="360" y="102">API<tspan x="360" dy="38">+ data</tspan></text>
+    <text x="616" y="102">Test<tspan x="616" dy="38">+ release</tspan></text>
   </g>
 </svg>
