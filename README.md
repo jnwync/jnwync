@@ -7,8 +7,8 @@ I'm a full-stack web and mobile engineer in Iloilo, Philippines. I build React a
 [Explore my work](https://jnwync.vercel.app/#projects) · [Resume](https://jnwync.vercel.app/cv.pdf) · [Email me](mailto:jonwayne.cabusbusan@gmail.com)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/build-path-dark.svg">
-  <img src="./assets/build-path-light.svg" alt="My engineering scope: web and mobile interfaces, APIs and data, testing and release." width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/build-path-dark.svg?v=2">
+  <img src="./assets/build-path-light.svg?v=2" alt="My engineering scope: web and mobile interfaces, APIs and data, testing and release." width="720">
 </picture>
 
 ## Selected work
