@@ -55,7 +55,7 @@ For **[Trackbill](https://jnwync.vercel.app/work/trackbill)**, I worked on makin
 
 ### The editor changes things. Good.
 
-I designed and built **[Reisky Martial Arts](https://jnwync.vercel.app/work/reisky)** a digital home in Next.js and TypeScript. Behind the page: a typed bridge from Sanity content to application models, so content can change without teaching every component how the CMS works. **Freelance design + development.** [Visit the website ↗](https://reisky.vercel.app)
+I designed and built the **[Reisky Martial Arts](https://jnwync.vercel.app/work/reisky)** website in Next.js and TypeScript. Behind the page: a typed bridge from Sanity content to application models, so content can change without teaching every component how the CMS works. **Freelance design + development.** [Visit the website ↗](https://reisky.vercel.app)
 
 <details>
   <summary>Does the page have to speak GROQ?</summary>
