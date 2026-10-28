@@ -24,11 +24,11 @@ From **[Trackbill](https://jnwync.vercel.app/work/trackbill)**, contract product
 
   I made a small, runnable sketch of the rule for this profile:
 
-  ```text
-  split / tap-1 -> accepted
-  split / tap-1 -> duplicate
-  keep / tap-2 -> stale
-  ```
+  | Delivery | Result |
+  | :-- | :-- |
+  | `split / tap-1` | **accepted** |
+  | `split / tap-1` | duplicate |
+  | `keep / tap-2` | stale |
 
   Here, `keep` means declining the split.
 
