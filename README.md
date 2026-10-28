@@ -13,7 +13,7 @@ Some of my work, with pictures.
 I worked on **[Trackbill](https://jnwync.vercel.app/work/trackbill)** for **Inertia**, across Next.js, Express/Prisma, and Expo/React Native. One part of that contract work: making one valid Split/No decision stick when an action arrives late or arrives again.
 
 <a href="https://jnwync.vercel.app/work/trackbill">
-  <img src="./assets/receipt-encore.svg" alt="Trackbill cartoon: the same Split command, tap-1, reaches one receipt twice. Its accepted decision stays unchanged. Already did." width="1000">
+  <img src="./assets/receipt.svg" alt="Trackbill cartoon: the same Split command, tap-1, reaches one receipt twice. Its accepted decision stays unchanged. Already did." width="1000">
 </a>
 
 <details>
