@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="385" viewBox="0 0 1000 385" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 385" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm Jon Wayne.</title>
   <desc id="desc">Jon Wayne Cabusbusan's real portrait beside handwritten lettering: Web, APIs, mobile. His own phrase: Another day, another opportunity.</desc>
   <style>@media(max-width:520px){.greeting,.quote,.handle{display:none}.name{font-size:100px;transform:translate(-8px,-3px)}.role{font-size:49px;transform:translate(-8px,35px)}}</style>

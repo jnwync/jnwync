@@ -1,5 +1,5 @@
 <a href="https://jnwync.vercel.app/">
-  <img src="./assets/hello-jon.svg?v=2" alt="Hi, I'm Jon Wayne. Web, APIs, mobile. Another day, another opportunity." width="1000">
+  <img src="./assets/jon-wayne.svg" alt="Hi, I'm Jon Wayne. Web, APIs, mobile. Another day, another opportunity." width="1000">
 </a>
 
 I'm **Jon Wayne Cabusbusan**, a full-stack web and mobile engineer in **Iloilo, Philippines**. I build with React, Next.js, TypeScript, Node.js, and React Native.
