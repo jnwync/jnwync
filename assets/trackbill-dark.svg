@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="580" viewBox="0 0 1000 580" role="img" aria-labelledby="title desc">
+  <style>@media (max-width:520px){.small-label{display:none}.project-title{font-size:108px!important}}</style>
+  <title id="title">Trackbill — two inputs, one accepted decision</title>
+  <desc id="desc">Editorial concept illustration of repeated delivery of a receipt action converging into one accepted decision. This is not application UI.</desc>
+  <rect width="1000" height="580" fill="#1B1D19"/>
+  <path d="M64 54H936" stroke="#F0EFE9" stroke-width="2"/>
+  <text class="small-label" x="64" y="105" fill="#B0B4A6" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="28" letter-spacing="4">01 / PRODUCT ENGINEERING</text>
+  <text class="project-title" x="64" y="207" fill="#F0EFE9" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="94" font-weight="700" letter-spacing="-5">Trackbill</text>
+  <path d="M64 236H936" stroke="#F0EFE9" stroke-width="2"/>
+  <path d="M87 290H319L329 300L319 310L329 320L319 330L329 340L319 350L329 360L319 370L329 380L319 390L329 400L319 410L329 420L319 430L329 440L319 450H87Z" fill="#30332D" stroke="#F0EFE9" stroke-width="2"/>
+  <path d="M87 290H319M112 318H278M112 343H248M112 368H278M112 393H220" stroke="#B0B4A6" stroke-width="3"/>
+  <text class="small-label" x="112" y="431" fill="#F0EFE9" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="28" font-weight="700" letter-spacing="2">RECEIPT</text>
+  <path d="M87 402H329" stroke="#FF7052" stroke-width="5"/>
+  <path d="M87 454H319L329 464L319 474L329 484L319 494L329 504L319 514L329 524H87Z" fill="#30332D" stroke="#F0EFE9" stroke-width="2" transform="translate(0 -4)"/>
+  <path d="M112 466H278M112 487H248M112 508H278" stroke="#B0B4A6" stroke-width="3"/>
+  <text x="390" y="311" text-anchor="middle" fill="#FF7052" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="64" font-weight="700">2×</text>
+  <path d="M350 364H485M442 341L465 364L442 387" fill="none" stroke="#F0EFE9" stroke-width="4"/>
+  <path d="M350 476H485M442 453L465 476L442 499" fill="none" stroke="#F0EFE9" stroke-width="4"/>
+  <path d="M512 324H908V468H512L498 454V338Z" fill="#F0EFE9"/>
+  <path d="M545 362L562 379L593 345" fill="none" stroke="#FF7052" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  <text class="small-label" x="624" y="381" fill="#1B1D19" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="28" letter-spacing="3">ACCEPTED</text>
+  <text x="543" y="450" fill="#1B1D19" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="72" font-weight="700" letter-spacing="-3">1 decision</text>
+  <path d="M64 540H936" stroke="#F0EFE9" stroke-width="2"/>
+  <text class="small-label" x="64" y="574" fill="#B0B4A6" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="28" letter-spacing="2">SAME ACTION. TWICE. ONE DECISION.</text>
+</svg>
