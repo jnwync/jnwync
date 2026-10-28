@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">
+  <title id="title">Same action. Same receipt. Already did.</title>
+  <desc id="desc">The same Split command, tap-1, approaches one receipt from both sides. The receipt has one accepted Split stamp and folded arms. It answers: Already did. This cartoon illustrates duplicate delivery, not two separate decisions.</desc>
+  <rect width="1000" height="390" fill="#FFF8E8"/>
+  <g stroke="#26382F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m364 60 23 10 24-10 24 10 24-10 24 10 24-10 24 10 24-10 24 10 25-10 2 259-24-10-24 10-24-10-24 10-24-10-24 10-24-10-24 10-24-10-24 10Z" fill="#fffdf6" transform="rotate(-2 480 185)"/>
+    <path d="M395 102h167m-166 19h89" fill="none"/>
+    <path d="M435 154v12m76-12v12m-59 29 34-1" fill="none" stroke-width="5"/>
+    <path d="m385 218-21 14q-10 8 0 14l76-2 72-14-5-18-69 14-48-9Z" fill="#C8D9AE"/>
+    <path d="m576 220 22 14q9 8-1 14l-75-5-69-17 5-17 68 17 47-8Z" fill="#C8D9AE"/>
+    <path d="M402 271q86-11 174-2l-1 47q-91 11-177-1Z" fill="#285891"/>
+    <path d="M44 46q103-10 216 0l-3 79-29 2 1 21-29-20-159 0Z" fill="#F8D970"/>
+    <path d="M730 42q105-9 228 2l-3 80-171 1-29 20 2-23-30-1Z" fill="#F8D970"/>
+    <path d="M245 178q49 15 83 18m-16-15 18 15-20 11M754 177q-47 12-87 16m16-16-18 16 19 12" fill="none" stroke="#285891" stroke-dasharray="3 9"/>
+    <path d="M643 273q143-10 302 1l-1 86q-160 14-309-2l1-54-30-20 38 3Z" fill="#C8D9AE"/>
+  </g>
+  <g font-family="Chalkboard SE,Comic Sans MS,cursive" fill="#26382F">
+    <text x="65" y="102" font-size="49" transform="rotate(-2 65 102)">Split it.</text>
+    <text x="751" y="101" font-size="49" transform="rotate(2 751 101)">Split it.</text>
+    <text class="detail" x="65" y="174" font-size="25">tap-1</text>
+    <text class="detail" x="778" y="174" font-size="25">tap-1</text>
+    <text class="detail" x="57" y="269" font-size="24" fill="#285891">first delivery</text>
+    <text class="detail" x="716" y="244" font-size="24" fill="#285891">same delivery. again.</text>
+    <text x="420" y="305" font-size="36" fill="#FFF8E8">SPLIT ✓</text>
+    <text x="659" y="335" font-size="46" transform="rotate(-1 659 335)">Already did.</text>
+  </g>
+  <style>@media(max-width:520px){.detail{display:none}}</style>
+</svg>

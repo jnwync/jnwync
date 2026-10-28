@@ -1,6 +1,6 @@
 # Two deliveries. One decision.
 
-This small model accompanies [Jon's profile field guide](../README.md). It illustrates a rule discussed in the public [Trackbill case study](https://jnwync.vercel.app/work/trackbill): a receipt gets one valid Split/No decision, even when actions arrive again or arrive late.
+This small model accompanies [Jon's illustrated profile](../README.md). It illustrates a rule discussed in the public [Trackbill case study](https://jnwync.vercel.app/work/trackbill): a receipt gets one valid Split/No decision, even when actions arrive again or arrive late.
 
 The example is original teaching code written for this repository. It is not extracted from a client codebase. Here, `keep` represents declining the split.
 

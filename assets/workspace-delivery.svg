@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">
+  <title id="title">A workspace delivery finds its room</title>
+  <desc id="desc">A cartoon courier with a valid role carries an update marked A toward Workspace B. The door says Wrong room. Workspace A is the correct destination. This is an illustrative scope check, not a client screen.</desc>
+  <rect width="1000" height="390" fill="#FFF8E8"/>
+  <g fill="none" stroke="#26382F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The wrong doorway, a slightly wonky arch with its own brass plate. -->
+    <path d="M700 359V133q0-95 112-95t112 95v226Z" fill="#E9E3D1"/>
+    <path d="M722 359V136q0-72 90-72t90 72v223Z" fill="#fffdf6"/>
+    <path d="M740 359V142q0-54 72-54t72 54v217"/>
+    <circle cx="864" cy="240" r="5" fill="#26382F"/>
+    <path d="M721 124q-16 18-8 45" stroke="#285891"/>
+    <!-- A quick notice, pinned crookedly to the B door -->
+    <path d="M777 107q46-9 91 0l-3 67q-49 7-90-1Z" fill="#F8D970" transform="rotate(3 822 140)"/>
+    <path d="m811 96 11 9m26-8-9 10"/>
+    <!-- The A room is open; a check hangs in the light from inside. -->
+    <path d="M101 359V203q0-64 74-64t74 64v156Z" fill="#C8D9AE"/>
+    <path d="M119 359V205q0-44 56-44t56 44v154Z" fill="#FFF8E8"/>
+    <path d="M174 359V205q0-44 56-44t56 44v154" fill="#C8D9AE"/>
+    <path d="m156 225 20 20 39-48" stroke="#285891" stroke-width="8"/>
+    <circle cx="257" cy="252" r="5" fill="#26382F"/>
+    <!-- Courteous editor, shaped like a little folded-paper courier. -->
+    <path d="M348 267q-2-28 24-46l19-37 26 18 24-23 17 36q18 24 11 52l-13 42-84 1Z" fill="#C8D9AE" transform="rotate(-4 405 263)"/>
+    <path d="m382 221 15-22 21 16m17-1 13-22 14 25" fill="#C8D9AE"/>
+    <path d="M378 254q18-16 40 0m13 0q13-14 25 0"/>
+    <path d="M397 261q15 12 29-1"/>
+    <path d="m362 288-9 35m87-35 18 34m-75-49q23 9 45-2"/>
+    <path d="m471 283 72-44 22 14-66 55-25-7Z" fill="#F8D970"/>
+    <path d="m496 300 9 24m-20-18-17 7"/>
+    <!-- update card carried toward B; the destination stays visible -->
+    <path d="M497 231q27-15 61-5l-1 57q-32 10-61-2Z" fill="#fffdf6" transform="rotate(-9 527 255)"/>
+    <path d="M579 232q39-10 66 11" stroke-dasharray="3 10" stroke="#285891"/>
+    <!-- One returned step turns the courier toward the open A room. -->
+    <path d="M626 315q-31 20-74 10m11-15-13 15 19 7" stroke="#285891" stroke-width="4"/>
+  </g>
+  <g font-family="Chalkboard SE,Comic Sans MS,cursive" fill="#26382F">
+    <text x="42" y="53" font-size="36">This update belongs in A.</text>
+    <path d="M41 78q114-12 229 2l-3 42q-114 9-225-2Z" fill="#fffdf6" stroke="#26382F" stroke-width="3.5" stroke-linejoin="round"/>
+    <text x="57" y="110" font-size="33" transform="rotate(-1 57 110)">Workspace A</text>
+    <path d="M334 93q116-16 224 1l-3 49q-118 11-220-2Z" fill="#F8D970" stroke="#26382F" stroke-width="3.5" stroke-linejoin="round"/>
+    <text x="368" y="128" font-size="38" transform="rotate(-1 368 128)">role ✓</text>
+    <text x="808" y="160" font-size="54">B</text>
+    <text x="509" y="273" font-size="35" transform="rotate(-9 509 273)">A</text>
+    <text x="729" y="308" font-size="44" transform="rotate(-3 729 308)">Wrong room.</text>
+    <text class="detail" x="134" y="377" font-size="20">A — right door ✓</text>
+    <text class="detail" x="745" y="377" font-size="20">B — try again ↶</text>
+    <path d="M567 94q33-26 65 1" fill="none" stroke="#285891" stroke-width="3.5" stroke-linecap="round"/>
+    <text class="detail" x="567" y="81" font-size="18" fill="#285891">this way?</text>
+  </g>
+  <style>
+    @media (max-width: 520px) { .detail { display: none; } }
+  </style>
+</svg>

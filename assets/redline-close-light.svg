@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
-  <title id="title">Your move.</title>
-  <desc id="desc">An editorial closing plate with a bold red outward arrow. The linked plate opens an email to Jon Wayne.</desc>
-  <style>@media(max-width:520px){.small{display:none}.headline{font-size:142px}}</style>
-  <rect width="1000" height="260" fill="#F0EFE9"/>
-  <text class="headline" x="35" y="169" font-family="Trebuchet MS,DejaVu Sans,sans-serif" font-size="134" font-weight="700" letter-spacing="-7" fill="#242622">Your move.</text>
-  <text class="small" x="42" y="223" font-family="Trebuchet MS,DejaVu Sans,sans-serif" font-size="27" fill="#64685D">An interesting problem is a good place to start.</text>
-  <path d="M808 185 935 58M812 58h123v123" stroke="#E0472B" stroke-width="17" stroke-linecap="square" fill="none"/>
-</svg>
