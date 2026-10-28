@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" role="img" aria-labelledby="title desc">
-  <style>@media (max-width:520px){.small-label{display:none}}</style>
+  <style>@media (max-width:520px){.small-label{display:none}.role-label{font-size:54px;letter-spacing:0}.workspace-label{font-size:42px;letter-spacing:0}}</style>
   <title id="title">OKRa — permission bounded by role and workspace</title>
   <desc id="desc">An abstract boundary diagram shows a role check followed by a workspace boundary before a resource can be reached. This is a concept diagram, not a client screen.</desc>
   <rect width="1000" height="540" fill="#F0EFE9"/>
@@ -11,7 +11,7 @@
   <path d="M72 176H503V438H72Z" fill="#242622"/>
   <path d="M94 198H481V416H94Z" fill="none" stroke="#F0EFE9" stroke-width="2"/>
   <path d="M94 198H152M94 198V256M481 198H423M481 198V256M94 416H152M94 416V358M481 416H423M481 416V358" fill="none" stroke="#E0472B" stroke-width="6"/>
-  <text class="small-label" x="119" y="247" fill="#F0EFE9" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="30" font-weight="700" letter-spacing="3">ROLE SCOPE</text>
+  <text class="role-label" x="119" y="247" fill="#F0EFE9" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="30" font-weight="700" letter-spacing="3">ROLE SCOPE</text>
   <path d="M122 282H407" stroke="#64685D" stroke-width="2"/>
   <path d="M122 314H274M122 347H349" stroke="#F0EFE9" stroke-width="5"/>
   <circle cx="374" cy="314" r="19" fill="#E0472B"/>
@@ -20,7 +20,7 @@
 
   <path d="M636 222H916V386H636Z" fill="#E3E1D8" stroke="#242622" stroke-width="2"/>
   <path d="M656 242H896V366H656Z" fill="none" stroke="#E0472B" stroke-width="5"/>
-  <text class="small-label" x="680" y="282" fill="#242622" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="28" font-weight="700" letter-spacing="2">WORKSPACE</text>
+  <text class="workspace-label" x="680" y="282" fill="#242622" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="28" font-weight="700" letter-spacing="2">WORKSPACE</text>
   <text class="small-label" x="680" y="334" fill="#64685D" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="28" letter-spacing="2">RESOURCE</text>
   <path d="M64 486H936" stroke="#242622" stroke-width="2"/>
   <text class="small-label" x="64" y="526" fill="#64685D" font-family="Trebuchet MS, DejaVu Sans, sans-serif" font-size="28" letter-spacing="2">RIGHT ROLE. RIGHT WORKSPACE.</text>
