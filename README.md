@@ -1,52 +1,68 @@
-# Jon Wayne Cabusbusan
+# jnwync.
 
-**I build what happens after the button.**
+**Jon Wayne Cabusbusan · Full-stack web + mobile · Iloilo, Philippines**
 
-I'm a full-stack web and mobile engineer in Iloilo, Philippines. I build React and Next.js interfaces, Node.js APIs, and React Native apps—connecting the screen to the system behind it.
-
-[Explore my work](https://jnwync.vercel.app/#projects) · [Resume](https://jnwync.vercel.app/cv.pdf) · [Email me](mailto:jonwayne.cabusbusan@gmail.com)
+[Work](https://jnwync.vercel.app/#projects) · [Resume](https://jnwync.vercel.app/cv.pdf) · [Email](mailto:jonwayne.cabusbusan@gmail.com)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/build-path-dark.svg?v=2">
-  <img src="./assets/build-path-light.svg?v=2" alt="My engineering scope: web and mobile interfaces, APIs and data, testing and release." width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/field-guide-dark.svg">
+  <img src="./assets/field-guide-light.svg" alt="Go on. Press it twice. Two attempts enter; one decision leaves." width="720">
 </picture>
 
-## Selected work
+A small field guide to perfectly reasonable things users do next.
 
-### [Trackbill](https://jnwync.vercel.app/work/trackbill) · Web, API & mobile
+### 01 · Same receipt. Same action. Again.
 
-Contract product engineering for Inertia's receipt and expense platform. My contributions span its Next.js dashboard, Express/Prisma services, and Expo/React Native app, including API-key security, receipt workflows, and reporting.
+Receipt actions can arrive late or arrive again. I worked on making one valid Split/No decision stick—and rejecting the repeat.
 
-[Read the case study](https://jnwync.vercel.app/work/trackbill) · [Visit the product](https://trackbill.ai)
+From **[Trackbill](https://jnwync.vercel.app/work/trackbill)**, contract product engineering for Inertia across Next.js, Express/Prisma, and Expo. [Product](https://trackbill.ai)
 
-### [Reisky](https://jnwync.vercel.app/work/reisky) · Client website & CMS
+<details>
+  <summary>Okay, send it again.</summary>
 
-A freelance project for a martial arts studio in Surrey, Canada. I designed and built the Next.js/TypeScript website and Sanity integration, connecting the public site to an editing workflow for its owner.
+  The actual work used atomic state commits, stale/duplicate rejection, localized feedback, and regression coverage across Meta and Evolution webhook paths.
 
-[Read the case study](https://jnwync.vercel.app/work/reisky) · [Visit the site](https://reisky.vercel.app)
+  I made a small, runnable sketch of the rule for this profile:
 
-### [OKRa](https://jnwync.vercel.app/work/okra) · Collaborative work tracking
+  ```text
+  split / tap-1 -> accepted
+  split / tap-1 -> duplicate
+  keep / tap-2 -> stale
+  ```
 
-Project-based full-stack development at Mashup Technology Ventures. I built features across React workflows, shared TypeScript/Zod contracts, PostgreSQL/Drizzle data, workspace permissions, and realtime board updates.
+  Here, `keep` means declining the split.
 
-[Read the case study](https://jnwync.vercel.app/work/okra)
+  [Run the sketch](./lab/README.md) · [Read the source](./lab/receipt-action.mjs) · [Inspect the tests](./lab/receipt-action.test.mjs)
 
-## In the toolbox
+  This model is sequential; production atomicity belongs at the persistence boundary. The sketch's documentation explains that limit.
+</details>
 
-- **Web:** TypeScript, React, Next.js, Tailwind CSS
-- **Mobile:** React Native, Expo
-- **Backend & data:** Node.js, Express, PostgreSQL, Prisma, Drizzle
-- **Quality & delivery:** Vitest, Playwright, GitHub Actions
+### 02 · The editor changes things. Good.
 
-## How I work
+Editing the content shouldn't require editing the interface. I built a typed bridge between the studio's Sanity content and the application's domain models, with an explicit choice of CMS or static data.
 
-I pay attention to the second tap, the expired session, and the request that never comes back.
+From **[Reisky Martial Arts](https://jnwync.vercel.app/work/reisky)**, a Next.js/TypeScript website I designed and built as a freelance project. [Website](https://reisky.vercel.app)
 
-I use AI-assisted workflows to investigate, plan, implement, and review. I stay responsible for understanding the changes and verifying the result.
+<details>
+  <summary>Does the page have to speak GROQ?</summary>
 
-## Let's build something useful
+  The content layer does. The page gets application types.
 
-For full-stack web and mobile roles, freelance projects, or a good engineering conversation:
+  TypeGen feeds unit-tested mappers that translate Sanity content into domain types. A feature flag selects Sanity or static data behind the same contract. The switch is explicit; it doesn't promise automatic outage recovery.
+</details>
 
-[jonwayne.cabusbusan@gmail.com](mailto:jonwayne.cabusbusan@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jnwync/) · [Portfolio](https://jnwync.vercel.app/)
+### 03 · New workspace. Different rules.
 
+Sharing a board shouldn't mean sharing every permission. I worked on workspace-scoped access and realtime updates, with shared validation contracts keeping the React and API layers aligned.
+
+From **[OKRa](https://jnwync.vercel.app/work/okra)**, project-based full-stack work at Mashup Technology Ventures using TypeScript/Zod and PostgreSQL/Drizzle.
+
+<details>
+  <summary>“Everyone can see it” isn't a permission model.</summary>
+
+  Role- and workspace-scoped permissions protect the workflows. Auth.js sessions and route protection handle identity; server-sent events with PostgreSQL LISTEN/NOTIFY carry board updates. Shared validation contracts keep the React and API layers aligned.
+</details>
+
+Got a good “what happens if…”? I'd like to hear it.
+
+[More work](https://jnwync.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/jnwync/) · [Email](mailto:jonwayne.cabusbusan@gmail.com)
